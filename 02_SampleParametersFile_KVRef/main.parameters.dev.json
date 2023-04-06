@@ -11,17 +11,17 @@
       "sqlServerAdminLogin": {
         "reference": {
           "keyVault": {
-            "id": "/subscriptions/subsId/resourceGroups/Bootcamp-RG/providers/Microsoft.KeyVault/vaults/andresArroyoKV"
+            "id": "/subscriptions/subsId/resourceGroups/RGName/providers/Microsoft.KeyVault/vaults/kvName"
           },
-          "secretName": "sqlServerAdministratorLogin"
+          "secretName": "sqlServerAdminLogin"
         }
       },
       "sqlServerAdminPassword": {
         "reference": {
           "keyVault": {
-            "id": "/subscriptions/subsId/resourceGroups/Bootcamp-RG/providers/Microsoft.KeyVault/vaults/andresArroyoKV"
+            "id": "/subscriptions/subsId/resourceGroups/RGName/providers/Microsoft.KeyVault/vaults/kvName"
           },
-          "secretName": "sqlServerAdministratorPassword"
+          "secretName": "sqlServerAdminPassword"
         }
       }
     }
